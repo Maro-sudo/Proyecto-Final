@@ -58,7 +58,7 @@ async function displayCharacters(name, status){
             <img src="${character.image}" />
             <h2> ${character.name} </h2>
             <p> status: ${character.status} </p>
-            <p> especie: ${character.especies} </p>
+            <p> especie: ${character.species} </p>
             `;
     
             charactersEl.appendChild(card);
