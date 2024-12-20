@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    background-color: #D3D3D3;
+}
+
+h1, #filter{
+    text-align: center;
+}
+
+main{
+    background-color: aliceblue;
+}
+
+#filter input, #filter #status filter{
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0;
+    font-size: 18px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.character-card img{
+    width: 100%;
+}
